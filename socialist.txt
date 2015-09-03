@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 Cape Cod Club Party
 
 Party Fresh, Party Local!
+=======
+Cape Cod Club Party... party fresh, party local!
+subscribe to the Woods Hole Social List: socialist@whoi.edu
+>>>>>>> 3fe85785015bebe147c913a21f144334b661979d

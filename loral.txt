@@ -1,5 +1,11 @@
 Loral is an engineer at WHOI.
 
+<<<<<<< HEAD
 She is from Texas.
 
 Loral likes airplanes and boats.
+=======
+She is from Texas. do not mess with Texas.
+
+Loral likes airplanes and boats.
+>>>>>>> 3fe85785015bebe147c913a21f144334b661979d
