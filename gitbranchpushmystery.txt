@@ -1,0 +1,300 @@
+remote: Counting objects: 61, done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 61 (delta 21), reused 61 (delta 21), pack-reused 0
+Unpacking objects: 100% (61/61), done.
+From https://github.com/janetriley/whoi-swc-workshop
+   d631af3..afb9351  Connors-Limb -> origin/Connors-Limb
+ * [new branch]      anewhall_branch -> origin/anewhall_branch
+ * [new branch]      bcorlett-branch -> origin/bcorlett-branch
+ * [new branch]      bkclarke-my-branch -> origin/bkclarke-my-branch
+ * [new branch]      cyc-my-branch -> origin/cyc-my-branch
+ * [new branch]      ebrownlee  -> origin/ebrownlee
+ * [new branch]      ehasbrouck -> origin/ehasbrouck
+ * [new branch]      ellie-my-branch -> origin/ellie-my-branch
+ * [new branch]      gitack-branch -> origin/gitack-branch
+ * [new branch]      jhemingway-my-branch -> origin/jhemingway-my-branch
+ * [new branch]      jriley-my-branch -> origin/jriley-my-branch
+ * [new branch]      juliej-my-branch -> origin/juliej-my-branch
+ * [new branch]      kpitz_my_branch -> origin/kpitz_my_branch
+ * [new branch]      lohara-my-branch -> origin/lohara-my-branch
+   892c4b7..e4445e5  master     -> origin/master
+ * [new branch]      meghanj-my-branch -> origin/meghanj-my-branch
+ * [new branch]      mmay       -> origin/mmay
+ * [new branch]      rbeinart-my-branch -> origin/rbeinart-my-branch
+ * [new branch]      stace-my-branch -> origin/stace-my-branch
+ * [new branch]      wjohnson-my-branch -> origin/wjohnson-my-branch
+Already up-to-date.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': msquared6
+Password for 'https://msquared6@github.com':
+To https://github.com/janetriley/whoi-swc-workshop.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/janetriley/whoi-swc-works
+hop.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you did not intend to push that branch, you may want to
+hint: specify branches to push or set the 'push.default' configuration variable
+hint: to 'simple', 'current' or 'upstream' to push only the current branch.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git pull
+Already up-to-date.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com':
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push martini-branch
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: 'martini-branch' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': msquared6
+Password for 'https://msquared6@github.com':
+To https://github.com/janetriley/whoi-swc-workshop.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/janetriley/whoi-swc-works
+hop.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git pull
+remote: Counting objects: 22, done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 22 (delta 10), reused 22 (delta 10), pack-reused 0
+Unpacking objects: 100% (22/22), done.
+From https://github.com/janetriley/whoi-swc-workshop
+   afb9351..a5d3583  Connors-Limb -> origin/Connors-Limb
+ * [new branch]      bgreenwood-branch -> origin/bgreenwood-branch
+ * [new branch]      dgi-blacken-branch -> origin/dgi-blacken-branch
+ * [new branch]      epeacock-second -> origin/epeacock-second
+   e4445e5..bb030c2  master     -> origin/master
+Already up-to-date.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git branch
+* martini-branch
+  master
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git status
+On branch martini-branch
+Your branch is up-to-date with 'origin/martini-branch'.
+
+nothing to commit, working directory clean
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push origin martini-branch
+Username for 'https://github.com': msquared6
+Password for 'https://msquared6@github.com':
+Everything up-to-date
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': msquared6
+Password for 'https://msquared6@github.com':
+To https://github.com/janetriley/whoi-swc-workshop.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/janetriley/whoi-swc-works
+hop.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you did not intend to push that branch, you may want to
+hint: specify branches to push or set the 'push.default' configuration variable
+hint: to 'simple', 'current' or 'upstream' to push only the current branch.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git pull
+remote: Counting objects: 11, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 11 (delta 4), reused 11 (delta 4), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+From https://github.com/janetriley/whoi-swc-workshop
+   c46b085..d0a1d61  audrey-mickle-branch -> origin/audrey-mickle-branch
+   12623e4..f44c819  epeacock-second -> origin/epeacock-second
+   9a996a3..4b73c0c  gitack-branch -> origin/gitack-branch
+   bb030c2..077eb62  master     -> origin/master
+Already up-to-date.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git pull origin martini-branch
+From https://github.com/janetriley/whoi-swc-workshop
+ * branch            martini-branch -> FETCH_HEAD
+Already up-to-date.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': msquared6
+Password for 'https://msquared6@github.com':
+To https://github.com/janetriley/whoi-swc-workshop.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/janetriley/whoi-swc-works
+hop.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you did not intend to push that branch, you may want to
+hint: specify branches to push or set the 'push.default' configuration variable
+hint: to 'simple', 'current' or 'upstream' to push only the current branch.
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push origin martini-branch
+Username for 'https://github.com': msquared6
+Password for 'https://msquared6@github.com':
+Everything up-to-date
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git add gitbranch*.txt
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git status
+On branch martini-branch
+Your branch is up-to-date with 'origin/martini-branch'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   gitbranchpushmystery.txt
+
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$ git push origin martini-branch
+Username for 'https://github.com': msquared6
+Password for 'https://msquared6@github.com':
+Everything up-to-date
+
+mmartini@IGSAGIEGLTMMA70 ~/Desktop/swc/whoi-swc-workshop (martini-branch)
+$
