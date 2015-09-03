@@ -1,0 +1,4 @@
+this is my text file to put up to origin.
+Chocolate is a major food group.
+and now for an edit to add more. we are learning 
+about git history.
