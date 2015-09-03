@@ -1,3 +1,3 @@
 ## Audrey M  
 
-Audrey is a librarian. She has never been stung by a bee.
+Audrey M. is a librarian. She has never been stung by a bee.
