@@ -1,0 +1,2 @@
+Stace is excited to learn GitHub.
+And also how to work with git repositories locally.
