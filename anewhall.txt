@@ -1,4 +1,4 @@
 My first git
 
-Path wasn't set properly
+ Here we go...
 
